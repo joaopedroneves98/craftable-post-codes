@@ -1,0 +1,13 @@
+@url = http://localhost:5140
+@contentType = application/json
+
+###############################################
+### Request: GET /api/v1/PostCodes
+###############################################
+
+### Query Parameter: postCode
+@postCode = N76RS
+
+GET {{url}}/api/v1/PostCodes?postCode={{postCode}}
+Content-Type: {{contentType}}
+
